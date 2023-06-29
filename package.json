@@ -1,6 +1,6 @@
 {
-  "name": "bymeacoldcoffe-dapp",
-  "homepage": ".",
+  "name": "buymeacoldcoffe-dapp",
+  "homepage": "https://jyotirmoydotdev.github.io/BuyMeAColdCoffee-DAPP",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,14 +17,17 @@
   },
   "devDependencies": {
     "assert": "^2.0.0",
-    "stream": "^0.0.2"
+    "gh-pages": "^5.0.0",
+    "stream": "^0.0.2",
+    "tailwindcss": "^3.3.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "yarn build && npx thirdweb@latest upload build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
