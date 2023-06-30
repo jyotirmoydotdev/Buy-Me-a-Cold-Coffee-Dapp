@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://jyotirmoydotdev.github.io/BuyMeAColdCoffee-DAPP/">View Demo</a>
+    <a href="https://jyotirmoydotdev.github.io/Buy-Me-a-Cold-Coffee-Dapp/">View Demo</a>
     .
     <a href="https://sepolia.etherscan.io/address/0x4cfed9e1aBA4E876E0f3bc096801792B5Dc940C8">Contract Address</a>
 </p>
