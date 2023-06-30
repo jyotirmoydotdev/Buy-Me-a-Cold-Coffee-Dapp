@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BuyMeAColdCoffee-DAPP/static/css/main.0a90120c.css",
-    "main.js": "/BuyMeAColdCoffee-DAPP/static/js/main.ae0250ec.js",
+    "main.css": "/BuyMeAColdCoffee-DAPP/static/css/main.f0cdb307.css",
+    "main.js": "/BuyMeAColdCoffee-DAPP/static/js/main.19e8540f.js",
     "static/js/5281.28822b05.chunk.js": "/BuyMeAColdCoffee-DAPP/static/js/5281.28822b05.chunk.js",
     "static/js/6659.31804ba5.chunk.js": "/BuyMeAColdCoffee-DAPP/static/js/6659.31804ba5.chunk.js",
     "static/js/44.0795eaa3.chunk.js": "/BuyMeAColdCoffee-DAPP/static/js/44.0795eaa3.chunk.js",
@@ -59,7 +59,7 @@
     "index.html": "/BuyMeAColdCoffee-DAPP/index.html"
   },
   "entrypoints": [
-    "static/css/main.0a90120c.css",
-    "static/js/main.ae0250ec.js"
+    "static/css/main.f0cdb307.css",
+    "static/js/main.19e8540f.js"
   ]
 }
