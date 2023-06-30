@@ -18,21 +18,24 @@ contract FundMeTest is Test {
         vm.deal(USER, 10 ether);
     }
 
-    function testMinUsdFunction() public {
+    function test_MinUsdFunction() public {
         assertEq(fundMe.MINIMUM_USD(), 5e18);
     }
 
-    function testOwner() public {
+    function test_Owner() public {
         assertEq(fundMe.getOwner(), msg.sender); //@audit - need to check if this is the correct way to get the owner
     }
 
-    function testPriceFeedVersionIsAccurate() public {
+    function test_PriceFeedVersionIsAccurate() public {
         //console.log(fundMe.getVersion());
         assertEq(fundMe.getVersion(), 4);
     }
 
     function testFail_FundFucntion() public {
         fundMe.fund{value: 0}();
+    }
+    function test_getFunderArrayLength() public fund{
+        assertEq(fundMe.getFunderArrayLength(), 1);
     }
 
     function test_fundArray() public {
@@ -112,7 +115,7 @@ contract FundMeTest is Test {
         assertEq(endOwnerBalance,startOwnerBalance+startContractBalance);
     }
 
-    function Address() public {
+    function Address() public view {
         console.log("Sender address: ", msg.sender);
         console.log("Owner  address: ", fundMe.getOwner());
         console.log("test   address: ", address(this));

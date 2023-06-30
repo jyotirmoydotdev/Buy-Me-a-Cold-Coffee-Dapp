@@ -43,16 +43,6 @@ contract FundMe {
     }
 
     function withdraw() public onlyOwner {
-        for (uint256 funderIndex = 0; funderIndex < funders.length; funderIndex++) {
-            address funder = funders[funderIndex];
-            addressToAmountFunded[funder] = 0;
-        }
-        funders = new address[](0);
-
-        (bool callSuccess,) = payable(msg.sender).call{value: address(this).balance}("");
-        require(callSuccess, "Call failed");
-    }
-    function CheaperWithdraw() public onlyOwner {
         uint funderArrayLength = funders.length;
         for (uint256 funderIndex = 0; funderIndex < funderArrayLength; funderIndex++) {
             address funder = funders[funderIndex];
@@ -83,7 +73,10 @@ contract FundMe {
     function getFunder(uint256 index) external view returns (address) {
         return funders[index];
     }
-    function exists() public view returns (bool) {
+    function getFunderArrayLength() public view  returns (uint) {
+        return funders.length;
+    }
+    function exists() public pure returns (bool) {
         return true;
     }
 }

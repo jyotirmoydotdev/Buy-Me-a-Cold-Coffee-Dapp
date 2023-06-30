@@ -1,4 +1,5 @@
-```
+# Project Strcuture
+``` bash
 .
 ├── Makefile
 ├── foundry.toml
