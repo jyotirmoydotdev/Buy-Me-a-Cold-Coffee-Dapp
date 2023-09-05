@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/BuyMeAColdCoffee-DAPP/static/css/main.0a90120c.css",
+    "main.css": "/BuyMeAColdCoffee-DAPP/static/css/main.465c226d.css",
     "main.js": "/BuyMeAColdCoffee-DAPP/static/js/main.b801e1d9.js",
     "static/js/5281.28822b05.chunk.js": "/BuyMeAColdCoffee-DAPP/static/js/5281.28822b05.chunk.js",
     "static/js/6659.31804ba5.chunk.js": "/BuyMeAColdCoffee-DAPP/static/js/6659.31804ba5.chunk.js",
@@ -59,7 +59,7 @@
     "index.html": "/BuyMeAColdCoffee-DAPP/index.html"
   },
   "entrypoints": [
-    "static/css/main.0a90120c.css",
+    "static/css/main.465c226d.css",
     "static/js/main.b801e1d9.js"
   ]
 }
