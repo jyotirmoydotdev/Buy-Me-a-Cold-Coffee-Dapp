@@ -51,7 +51,7 @@ export default function Home() {
           <div className="pb-4">
             <div className="flex flex-col w-full justify-center ">
               <div className=" flex flex-row justify-center pb-2">
-                <img src="https://pbs.twimg.com/profile_images/1673799170132697088/l9wZczrK_400x400.jpg" alt="My Profile" className="border border-slate-700 w-32 h-32 rounded-full ">
+                <img src="https://avatars.githubusercontent.com/u/64324524?v=4" alt="My Profile" className="border border-slate-700 w-32 h-32 rounded-full ">
                 </img>
               </div>
               <div className="flex flex-row justify-center font-extrabold text-3xl">
